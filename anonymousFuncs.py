@@ -22,7 +22,7 @@ print(list(map(convertToUpper, lowerStrings)))
 
 '''
     Using filter() with Lambda Expressions
-    filter() returns values depnding on the filter critera defined in the lambda function
+    filter() returns values depending on the filter critera defined in the lambda function
 '''
 # Remove missing values from list
 lowerStrings        = ['messi', '', 'iniesta', '', '', 'xavi', 'puyol', 'pique', '', '']
