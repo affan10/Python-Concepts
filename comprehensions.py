@@ -22,7 +22,6 @@ print(result)
 names     = ['Lionel', 'Andres', 'Xavi', 'Carles', 'Gerard']
 surnames  = ['Messi', 'Iniesta', 'Hernandez', 'Puyol', 'Pique']
 zipResult = list(zip(names, surnames))
-zipResult = zipResult[:]
 print(zipResult)
 
 fullNames = {name:surname for name, surname in zip(names, surnames)}
